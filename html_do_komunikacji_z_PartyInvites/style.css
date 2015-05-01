@@ -1,0 +1,40 @@
+﻿body 
+{
+color:yellow;
+background-color:blue; 
+}
+
+span
+{
+font-size:18pt
+}
+
+#prim { color:white; }
+#y { color:black; background-color:white; height:150px; }
+
+.x { color:silver;background-color:green; }
+
+/*  
+dziedziczenie styli ,sprfawdzic skladnie 
+span div .x { font-size:30pt;}
+*/
+
+/*  
+styl dla identyfikatora to id poprzedzamy # 
+a dla class to . (kropka)
+
+id mozna uzyc raz, class mozna uzyc wiele razy
+*/
+ 
+
+
+/*
+1) Jak rozroznic span? Przez id lub class
+   class - kategoria stylu (name of class style)
+   w WPF jest "name" , a w html id
+   
+2)span
+{
+font-size:18px
+}
+*/ 

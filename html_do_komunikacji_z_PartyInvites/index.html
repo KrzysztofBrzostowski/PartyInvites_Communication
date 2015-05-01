@@ -1,0 +1,54 @@
+﻿<!-- komunikacja z aplikacją ..\Desktop\Szkolenia\Cs_testowe\ASP\PartyInvites -->
+
+<html>
+
+<head>
+
+<title> </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+ </head>
+
+<body> 
+
+<h1> Nagłówek poccątkowy </h1>
+
+<span id="prim"> To jest zawartosc span, id="prim". <br> </span>
+
+<span class="x" > To jest zawartosc span, class="x". </span>
+
+
+<div id="y" > To jest zawartosc div. (Zawsze zaczyna sie od nowej linii) 
+
+<form method="get" action="http://localhost:53320/Home/RsvpForm1" >
+
+<!-- name w html to id (parametr metody) w MVC -->
+<input type="text" name="id" />
+
+<input type="submit" /><input type="submit" />
+
+</form>
+
+</div>
+
+<div class="x" > To jest zawartosc div. Jest to element blokowy </div>
+
+<div id="yy" > To jest zawartosc div-new. (Zawsze zaczyna sie od nowej linii) 
+<!-- name w html to id w MVC -->
+<form method="post" action="http://localhost:53320/Home/RsvpForm2" >
+
+<input type="text" name="id" />
+
+<input type="submit" />
+
+</form>
+
+</div>
+
+
+
+ </body>
+
+
+</html>
